@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc-watch --onSuccess \"npm start\"",
-    "start": "node build/index.js"
+    "start": "tsc-watch --onSuccess \"npm run dev\"",
+    "dev": "node build/index.js"
   },
   "keywords": [],
   "author": "",
